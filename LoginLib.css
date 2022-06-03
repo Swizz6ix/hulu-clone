@@ -1,0 +1,352 @@
+.loginLib {
+    background-color: #0b0c0f;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: 16;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+.loginLib__newsInner {
+    margin-top: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+.loginLib__newsInner {
+    margin-top: 140px;
+    }
+}
+
+
+.loginLin__container {
+    position: relative;
+    
+}
+
+
+.loginLib__sportsNews {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzixd47am2l91k7r9dvzt0bi-ckuh9mwn808iv1v31u5qhc0lj-ckqwp3dbnf39o1j5snovs92yr-welcome-v6-sports-min-1-full-full.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .loginLib__sportsNews {
+        background-position: 0% 80%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzyp3x8ycmjp1k4e5pc5p9n9-ckuh9mwjj08j01v4q0ur1z6x1-ckqwp2zlfc1zx1u362echneor-sports-v3-1600x850-min-full.jpg");
+    }
+}
+
+
+.loginLib__breakingNews {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzixevqgs6rn1k4eh3si78i5-ckuh9mwgf07wx1v3w11vwnm7v-ckqip0kn59nkn1u4y1pbrygdu-news-375x760-2x-full-full.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .loginLib__breakingNews {
+        background-position: 0% 80%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8)-39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzyp4x986iio1k7rkj43368r-ckuh9mwg007ws1v4zm8i4kk07-ckqiozsqemxsf1u3mw3ihh0ti-news-1600x850-2x-full.jpg");
+    }
+}
+
+.loginLib__bigEvents {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8)-39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzixgoqcs6t91k56rxwnqi42-ckuh9mwhe08r61v07uaz109j1-ckqip58nxmxz71u3nhauv2qpx-biggest-events-375x760-2x-full-full.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .loginLib__bigEvents {
+        background-position: 0% 80%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8)-39.59%, rgba(0, 0, 0, 0) 117.14%), url("https://www.hulu.com/static/hitch/s3/attachments/ckzyp5obb6ijq1k7rdave9sam-ckuh9mwj308re1v24oa5phjn9-ckqip2n0m9n5t1u2zln68cft8-biggest-events-1600x850-2x-full.jpg");
+    }
+}
+
+.loginLib__spotlight{
+    background-color: #0b0c0f;
+    z-index: -1;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.loginLib__spotlight--inactive {
+    display: none;
+}
+
+.loginLib__newsOuter {
+    margin: 0 auto;
+    padding-top: 34px;
+    height: 760px;
+    box-sizing: inherit;
+    display: block;
+}
+
+@media screen and (min-width: 769px) {
+    .loginLib__newsOuter{
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__newsOuter{
+        max-width: 786px;
+        max-height: 702px;
+        padding: 60px 0 190px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .loginLib__newsOuter {
+        max-width: 976px;
+        max-height: 811px;
+    }
+}
+
+.loginLib__buttons {
+    text-align: center;
+    padding-bottom: 31px;
+    white-space: nowrap;
+    transform: translateX(cal(0px));
+    transition: transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.loginLib__buttons > button {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.4);
+    background: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 0;
+    transition: 100ms;
+    border-radius: 0;
+    line-height: 1.15;
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__buttons {
+        text-align: left;
+    }
+
+    .loginLib__buttons > button {
+    text-align: left;
+    margin-right: 37px ;
+    margin-left: 0 ;
+    padding: 0;
+    /* width: 100%; */
+}
+}
+
+.loginLib__buttons > button > span {
+    font-size: 12px;
+    line-height: 1.125;
+    letter-spacing: 0.25px;
+}
+
+
+.loginLib__button--active {
+    color: red;
+    transition: transform 50ms ease-out;
+}
+
+
+
+.loginLib__contentsContainer {
+    transform: translate3d(0, 0, 0);
+    transition: all 0.6s ease;
+    order: 1;
+}
+
+@media screen and (min-width: 1024px) {
+.loginLib__contentsContainer {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .loginLib__contentsContainer {
+        padding-top: 60px;
+        transition: transform 200ms ease-out;
+    }
+}
+.loginLib__contentContainer--inactive {
+    display: none;
+}
+
+.loginLib__contentsHeadline {
+color: white; 
+margin-top: 80px;
+text-align: center;
+font-weight: bold;
+} 
+
+.loginLib__contentsHeadline > span {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.2;
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__contentsHeadline {
+        text-align: left;
+        margin-top: 25px;
+        max-width: 650px;
+    }
+
+        .loginLib__contentsHeadline>span {
+            font-size: 48px;
+            line-height: 1.25;
+            letter-spacing: -0.5px;
+            font-weight: 600;
+        }
+}
+
+
+.loginLib__activebar {
+    display: block;
+    background: white;
+    /* position: absolute; */
+    width: 81px;
+    height: 5px;
+    transform: translateX(0px);
+    transform-origin: right center;
+    transition: width 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    margin-top: 13px;
+    z-index: 2;
+}
+
+.loginLib__activebar--inactive {
+    /* display: none; */
+}
+
+
+.loginLib__contentsSubHead {
+    color: white;
+    max-width: 550px;
+    text-align: center;
+    margin: 4px auto 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 375px) {
+    .loginLib__contentsSubHead > span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.36;
+        letter-spacing: 0px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .loginLib__contentsSubHead {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 18px;
+        max-width: 450px;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .loginLib__contentsSubHead {
+        max-width: 500px;
+    }
+}
+
+
+.loginLib__img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 350px;
+    margin: 27px auto 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__img
+        {
+            text-align: left;
+            justify-content: flex-start;
+            margin: 20px 0 0 0;
+            padding: 0;
+            width: 100%;
+        }
+}
+
+.loginLib__img > div {
+    background: white;
+    border-radius: 999px;
+    width: 48px;
+    height: 48px;
+    margin: 0 10.5px 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__img > div {
+        margin: 0 20px 20px 0;
+    }
+}
+
+.loginLib__img > div > img {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    object-fit: contain;
+    background-size: contain;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-height: 88px;
+    max-width: 88px;
+    transition: opacity 0.3s;
+}
+
+.loginLib__text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 1.44;
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .loginLib__text {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.loginLib__text > p {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.46;
+    letter-spacing: 0px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 786px) {
+    .loginLib__text > p {
+        margin-right: 63px;
+        margin-left: 63px;
+    }
+}
+
+.loginLib__text > p > a {
+    color: rgba(255, 255, 255, 0.6);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.6); */
+}

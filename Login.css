@@ -1,0 +1,180 @@
+.login {
+    position: relative;
+}
+.login__contentWrapper {
+    flex: 1 0 auto;
+    overflow-x: hidden;
+}
+
+.login__iconMenu {
+    background: rgba(11, 12, 15, 0.5);
+    height: 40px;
+    width: 50px;
+    margin-right: 45px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.login__logo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    /* background-color: #111; */
+    /* background: transparent; */
+    justify-content: space-between;
+}
+
+.login__logoContainer {
+    background: rgba(11, 12, 15, 0.5);
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0 , 0, 0.3) 0px 30px 60px -30px, rgba(10, 37 , 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.login__iconBtn > button {
+    display: none;
+    color: rgba(255, 255 , 255, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    /* margin: 0;
+    right: 40px;
+    top: 35px; */
+    /* display: none; */
+}
+
+
+@media screen and (min-width: 769px) {
+    .login__btn{
+        display: inline-block !important;
+    }
+
+    .login__iconBtn {
+        background: rgba(11, 12, 15, 0.5);
+        height: 35px;
+        /* width: 50px; */
+        margin-right: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        /* visibility: visible; */
+    }
+
+    .login__menu {
+        display: none !important;
+    }
+    .login__iconMenu{
+        display: none;
+    }
+}
+
+
+.login__menu {
+    color: white !important;
+    margin-top: 0 !important;
+    position: fixed;
+    right: 40px;
+    top: 35px;
+}
+
+.login__logoContainer > img {
+    width: 60px;
+    object-fit: contain;
+    position: fixed;
+    left: 40px;
+    top: 35px;
+    
+    
+}
+
+.login__label {
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.5s ease;
+    bottom: 0;
+    transform: translateY(150%);
+    z-index: 30;
+    /* visibility: hidden; */
+}
+
+.login__label--inactive {
+    display: block;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        transition: transform 0.5s ease;
+        bottom: 0;
+        transform: translateY(150%);
+        z-index: 30;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 769px) {
+    .login__label {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .login__label {
+        transform: translateY(0);
+    }
+}
+
+.login__labelContainer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0 , 0, 0) 0%, rgba(0, 0, 0, 0.5)100%);
+}
+
+.login__labelBtn {
+    cursor: pointer;
+    transition: background-color 250ms, color 250ms border-color 250ms;
+    transform: unset;
+    width: calc(100% - 40px);
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    min-width: 64px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #0b0c0f !important;
+    border-width: 0px;
+    border-style: solid;
+    padding: 0 24px;
+    height: 48px;
+    overflow: hidden;
+    box-shadow: rgba(250, 4, 67, 0.4) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.3) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.35) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.4) 0px 2px 1px, rgba(0, 0, 0, 0.3) 0px 4px 2px, rgba(0, 0, 0, 0.35) 0px 8px 4px, rgba(0, 0, 0, 0.3) 0px 16px 8px, rgba(0, 0, 0, 0.3) 0px 32px 16px !important;
+}
+
+.login__labelBtn {
+    width: 100%;
+    display: inherit;
+    -webkit-box-align: inherit;
+    -webkit-box-pack: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}

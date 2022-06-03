@@ -1,0 +1,60 @@
+.loginMe__message>div {
+    margin: 0 auto;
+    /* padding-top: 60px; */
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginMe__message > div > h1 {
+    color: rgba(223, 134, 134, 0.46);
+    text-decoration-line: underline;
+    margin-bottom: -23px;
+}
+
+.loginMe__message > div > h3 {
+    font-size: 12px;
+}
+
+.loginMe__message > div > h3 > p {
+    font-size: 30px;
+}
+
+.loginMe__message>div>h3, h1 {
+    margin-block-start: 0.85em;
+    margin-block-end: 0.85em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 28px;
+    max-width: 576px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    /* margin-top: -25px; */
+}
+
+.loginMe__message > div > h3 > span {
+    color: #1ce783;
+    font-weight: normal;
+    background: rgba(132, 128, 128, 0);
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 767px) {
+    .loginMe__message>div>h1 {
+        margin: 18px 10% 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .loginMe__message > div > h3 {
+        max-width: 976px;
+    }
+
+    .loginMe__message> div > h1 {
+        margin-bottom: -30px;
+    }
+}

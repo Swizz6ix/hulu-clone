@@ -1,0 +1,214 @@
+.loginPics__tv {
+    background-color: #0b0c0f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.loginPics__tvHead {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .loginPics__tvHead {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+.loginPics__tvContents {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .loginPics__tvContents {
+        padding-top: 88px;
+    }
+}
+
+.loginPics__tvContents>span {
+    color: #00ed82;
+}
+
+@media screen and (min-width: 375px) {
+    .loginPics__tvContents>span {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.6px;
+    }
+}
+
+.loginPics__tvContents > h2 {
+    color: white;
+    margin: 16px 0 10px !important;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (min-width: 375px) {
+    .loginPics__tvContents>h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.2px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPics__tvContents > h2 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+    }
+
+        .loginPics__tvContents>p {
+            margin: 0 auto;
+            padding-top: 16px;
+            max-width: 680;
+        }
+}
+
+.loginPics__tvContents > p {
+    color: white;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* min-width: 380px; */
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 375px) {
+    .loginPics__tvContents>p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.36;
+        letter-spacing: 0px;
+    }
+}
+
+.loginPics__tvCards {
+    background-color: #0b0c0f;
+    padding: 0 20px 60px;
+    position: relative;
+    z-index: 2;
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+.loginPics__tvCard {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    box-sizing: inherit;
+}
+
+@media screen and (min-width: 1280px) {
+    .loginPics__tvCards {
+        max-width: 100%;
+        padding: 0 0 100px;
+    }
+
+    .loginPics__tvCard {
+        justify-content: center;
+        grid-template-columns: repeat(4, 295px);
+        grid-template-rows: auto;
+    }
+
+    .loginPics__tvContents>p {
+        max-width: 792px;
+    }
+}
+
+.loginPics__tvCard>div {
+    position: relative;
+    text-align: left;
+}
+
+.loginPics__tvCard>div>span {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.46;
+}
+
+.loginPics__overlayGradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(156.82deg, rgba(0, 0, 0, 0.6)4.58%, rgba(0, 0, 0, 0) 69.61%), linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+}
+
+.loginPics__tvImg {
+    width: 294px;
+    /* height: 450px; */
+    object-fit: contain;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.loginPics__cardOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .loginPics__cardOverlay {
+        padding: 25px;
+    }
+}
+
+.loginPics__cardOverlay>span {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.loginPics__cardOverlay>h3 {
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    font-weight: normal;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    /* margin-block-start: 0.83em; */
+    /* margin-block-end: 0.83em; */
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+@media screen and (min-width: 375px) {
+    .loginPics__cardOverlay>span {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.44;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .loginPics__cardOverlay>span {
+        margin-bottom: 10px;
+    }
+}

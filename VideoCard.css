@@ -1,0 +1,71 @@
+.videoCard__box {
+    color: white;
+    /* width: 500px; */
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(17, 7, 249, 0.3) 0px 7px 13px -3px, rgba(63, 249, 17, 0.35) 0px -3px 0px inset;
+}
+
+.videoCard__box:hover {
+    transform: scale(1.09);
+    border-radius: 40px;
+}
+
+.videoCard__box > img {
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(17, 7, 249, 0.3) 0px 7px 13px -3px, rgba(17, 133, 249, 0.35) 0px -3px 0px inset;
+}
+
+.videoCard__box > h2 {
+    padding-top: 10px;
+}
+
+.videoCard__stats {
+    display: none;
+}
+
+.videoCard__box:hover > .videoCard__stats {
+    display: inline;
+    color: green;
+}
+
+@media screen and (max-width: 415px) {
+    .videoCard__box > img {
+        width: 350px;
+        object-fit: contain;
+    }
+    
+    .videoCard__youtube {
+        /* width: 350px; */
+        margin-top: 10px;
+    }
+
+    .videoCard__box:hover {
+        transform: scale(1.0);
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .videoCard__youtube {
+        /* width: 500px; */
+        margin-top: 10px;
+    }
+
+    .videoCard__box {
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(17, 7, 249, 0.3) 0px 7px 13px -3px, rgba(63, 249, 17, 0.35) 0px -3px 0px inset;
+}
+}
+
+.videoCard__youtube {
+    /* width: 500px; */
+    margin-top: 10px;
+}

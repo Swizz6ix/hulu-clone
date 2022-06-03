@@ -1,0 +1,84 @@
+.nav {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll !important;
+    color: white;
+    padding-left: 40px;
+    padding: 10px;
+}
+
+.nav__text {
+    cursor: pointer;
+    /* font-size: 20px !important; */
+    font-weight: 500 !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+    /* box-sizing: border-box; */
+    opacity: 0.7 !important;
+    transition: transform 50ms ease-out !important;
+}
+
+.nav__text:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox  */
+.nav {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.nav__text--active {
+    color: green !important;
+    opacity: 1 !important;
+    outline: red !important;
+}
+
+.MuiButton-contained {
+    color: green !important;
+    border-start-start-radius: 40px !important;
+    background-color: black !important;
+    /* background: transparent  !important; */
+    box-shadow: rgba(204, 219, 232, 0.038) 1px 1px 2px 0px ,  -3px -3px 6px 1px inset !important;
+}
+
+.MuiButton-outlined {
+    /* border-color: white !important; */
+    border-inline-end-width: 4px !important;
+    border-color: green !important;
+    /* color: black !important; */
+}
+
+@media screen and (max-width: 1485px) {
+    .MuiButton-outlined {
+        font-size: small;
+        /* width: 400px !important; */
+        color: white !important;
+        border-color: chartreuse !important;
+        border-inline-end-width: 4px !important;
+    }
+    .nav__text--active {
+        font-size: 10px !important;
+    }
+    
+    .nav__text {
+        font-size: 11px !important;
+    }
+
+    .MuiButton-contained {
+        color: gray !important;
+        border-start-start-radius: 40px !important;
+        background-color: rgba(0, 128, 0, 0.422) !important;
+        /* background: transparent  !important; */
+        box-shadow: rgba(204, 219, 232, 0.038) 1px 1px 2px 0px, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset !important;
+        }
+    
+}

@@ -1,0 +1,202 @@
+.LoginPage {
+    background: #0b0c0f;
+}
+
+.loginPage__bill {
+    background-color: #0b0c0f;
+    margin: 0 auto;
+    background-image: none;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-sizing: inherit;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .loginPage__bill {
+        background-image: none;
+        padding: 95px 0 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPage__bill {
+        max-width: 768px;
+        padding: 100px 0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .loginPage__bill {
+        max-width: 976px;
+    }
+}
+.loginPage__bill>h2 {
+    color: white;
+    margin: 16px 3% 0;
+    font-size: 32px;
+    letter-spacing: -.2px;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    /* margin-block-start: 0.83em; */
+    /* margin-block-end: 0.83em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    /* white-space: nowrap; */
+}
+
+
+.loginPage__bill>h3 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.36;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+}
+
+@media screen and (max-width: 415px) {
+    .loginPage__bill>h3 {
+        margin: 18px 10% 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .loginPage__bill>h3 {
+        margin: 18px 10% 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPage__bill > h3 {
+        margin: 18px 17.5% 0;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        line-height: 1.32;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPage__bill>h3 {
+        margin: 18px 12% 0;
+    }
+}
+.loginPage__bill>p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.46;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 12px 5% 0;
+}
+
+@media screen and (min-width: 768px) {
+    .loginPage__bill > p {
+        margin: 18px 10% 0;
+        margin: 0 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPage__bill > p {
+        margin: 18px 17.5% 0;
+    }
+}
+
+.loginPage__bill>p>a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.loginPage__billHeadline {
+    color: #1ce783;
+    font-weight: 500;
+    letter-spacing: .6px;
+    line-height: 1;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .loginPage__billHeadline {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .loginPage__billHeadline {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .loginPage__bill > h2 {
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: -.5px;
+        line-height: 1.25;
+    }
+}
+
+.loginPage__bill>button {
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    border: none;
+    text-decoration: underline;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .loginPage__bill>button {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: .6px;
+    }
+}
+
+.loginPage__bill > .MuiSvgIcon-root {
+    /* background: url("https: //www.hulu.com/static/hitch/static/icons/dropdown_arrow.svg"); */
+    color: white !important;
+    margin: 0 auto !important;
+    height: 29px !important;
+    cursor: pointer;
+    width: 50px !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    animation: move-up-and-down 1s infinite alternate !important;
+    -webkit-animation: move-up-and-down 1s infinite alternate !important;
+}
+
+@keyframes move-up-and-down {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MuiSvgIcon-root {
+        margin-top: 50px;
+    }
+}
